@@ -1,0 +1,71 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+	font-size: inherit;
+}
+
+html {
+  background-image: url(../images/sedc-slide1.jpg);
+  background-position: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+nav > div .nav-wrapper .container{
+  width: 100%;
+}
+
+nav > div > ul > li .srch {
+  background-image: url(../images/searchBg.png);
+  background-size: cover;
+}
+
+
+
+
+
+
+
+body > nav {
+  background-color: rgba(0, 0, 0, 0);
+  box-shadow: none;
+}
+
+#logo-container > img {
+  margin: 5px 0 0 5px;
+  float: left;
+}
+
+nav > div > ul{
+  background-color: rgb(24,34,53);
+  
+}
+
+nav > div > ul > li {
+  background-color: rgb(24,34,53);
+}
+
+
+.sidenav li > a{
+  color: white;
+}
+
+.midSection {
+ margin-top: 5%;
+}
+
+/*
+change line height of nav
+make ul smaller
+
+sep the logo parts expose a plus sign in the middle and rotate.
+*/
